@@ -1,3 +1,4 @@
 # Generate-Prime-Numbers
-A function which returns n number of prime numbers
-#The function generates the first n numbers from 0 to n
+A function which returns  a list of prime numbers
+between a given range 0 to n.
+The input paramenter for the function is n
