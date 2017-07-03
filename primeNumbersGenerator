@@ -43,8 +43,4 @@ def generatePrimeNumbers(numprimes):
             potentialprime += 1
         else:
             potentialprime += 1
-    
-generatePrimeNumbers(7)
-            
-    
-  
+    return primeNumbers  
