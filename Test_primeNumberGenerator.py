@@ -13,9 +13,6 @@ import primeNumbersGenerator
 
 class TestPrimeGenerator(unittest.TestCase):
 
-
-
-
     def test_zero(self):
         """Testing if zero is correctly determined not to be prime."""
 
@@ -24,7 +21,7 @@ class TestPrimeGenerator(unittest.TestCase):
     def test_fifty(self):
         """Testing if prime numbers are correctly generated."""
         
-        self.assertEqual(prime_numbers(50), [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47])
+        self.assertEqual(generatePrimeNumbers(50), [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47])
 
     def test_one(self):
         """"Testing if one is correctly determined not to be prime."""
